@@ -8,6 +8,7 @@
 
 ```demo
 basic.vue
+simple.vue
 slot.vue
 quick-jumper.vue
 size.vue
@@ -41,6 +42,7 @@ rtl-debug.vue
 | prefix | `(info: PaginationInfo) => VNodeChild` | `undefined` | 分页前缀 |  |
 | show-quick-jumper | `boolean` | `false` | 是否显示快速跳转 |  |
 | size | `'small' \| 'medium' \| 'large'` | `'medium'` | 分页按钮的大小 | 2.29.0 |
+| simple | `boolean` | `false` | 是否显示为简单分页 |  |
 | suffix | `(info: PaginationInfo) => VNodeChild` | `undefined` | 分页后缀 |  |
 | show-size-picker | `boolean` | `false` | 是否显示每页条数的选择器 |  |
 | on-update:page | `(page: number) => void` | `undefined` | 当前页发生改变时的回调函数 |  |

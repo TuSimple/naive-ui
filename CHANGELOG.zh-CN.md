@@ -33,6 +33,7 @@
 - `n-popselect` 新增 `virtual-scroll` 属性
 - `n-data-table` 新增 `scrollTo` 方法，关闭 [#2570](https://github.com/TuSimple/naive-ui/issues/2570)
 - `n-slider` 新增 `thumb` 插槽
+- `n-pagination` 新增 `simple` 属性
 
 ## 2.30.3
 
