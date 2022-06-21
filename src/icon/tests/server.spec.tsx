@@ -1,5 +1,5 @@
 /**
- * @jest-environment node
+ * @vitest-environment node
  */
 import { h, createSSRApp } from 'vue'
 import { renderToString } from '@vue/server-renderer'

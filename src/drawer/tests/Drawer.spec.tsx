@@ -139,7 +139,7 @@ describe('n-drawer', () => {
   })
 
   it('should work with `on-update:show` prop', async () => {
-    const onUpdate = jest.fn()
+    const onUpdate = vi.fn()
     const wrapper = mountDrawer({
       hasOnUpdateShow: true,
       drawerProps: { onUpdateShow: onUpdate },
@@ -153,7 +153,7 @@ describe('n-drawer', () => {
   })
 
   it('should work with `mask-closable` prop', async () => {
-    const onUpdate = jest.fn()
+    const onUpdate = vi.fn()
     const mousedownEvent = new MouseEvent('mousedown', { bubbles: true })
     const mouseupEvent = new MouseEvent('mouseup', { bubbles: true })
     const wrapper = await mountDrawer({

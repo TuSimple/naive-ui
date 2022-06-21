@@ -16,7 +16,7 @@ describe('n-switch', () => {
   })
 
   it('should work with `checked-value` prop', async () => {
-    const onUpdateValue = jest.fn()
+    const onUpdateValue = vi.fn()
     const wrapper = mount(NSwitch, {
       props: {
         checkedValue: 'fooo',
@@ -85,7 +85,7 @@ describe('n-switch', () => {
   })
 
   it('should work with `on-update:value` prop', async () => {
-    const onUpdate = jest.fn()
+    const onUpdate = vi.fn()
     const wrapper = mount(NSwitch, { props: { 'onUpdate:value': onUpdate } })
 
     await wrapper.trigger('click')

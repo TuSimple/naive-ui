@@ -127,7 +127,7 @@ describe('n-avatar', () => {
   })
 
   it('image avatar error handle when load failed', async () => {
-    const onError = jest.fn()
+    const onError = vi.fn()
     const wrapper = mount(NAvatar, {
       props: {
         src: 'https://07akioni.oss-cn-beijing.aliyuncs.com/07akioni.jpeg',

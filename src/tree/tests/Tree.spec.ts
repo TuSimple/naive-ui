@@ -383,7 +383,7 @@ describe('n-tree', () => {
   })
 
   it('should work with `onLoad`', async () => {
-    const onLoad = jest.fn()
+    const onLoad = vi.fn()
     const wrapper = mount(NTree, {
       props: {
         data: [

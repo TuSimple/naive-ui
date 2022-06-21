@@ -142,7 +142,7 @@ describe('n-mention', () => {
   })
 
   it('should work with `on-update:value` prop', async () => {
-    const onUpdate = jest.fn()
+    const onUpdate = vi.fn()
     const wrapper = mount(NMention, {
       attachTo: document.body,
       props: { options: options, 'on-update:value': onUpdate }
@@ -155,7 +155,7 @@ describe('n-mention', () => {
   })
 
   it('should work with `on-focus` prop', async () => {
-    const onFocus = jest.fn()
+    const onFocus = vi.fn()
     const wrapper = mount(NMention, {
       attachTo: document.body,
       props: { options: options, 'on-focus': onFocus }
@@ -166,7 +166,7 @@ describe('n-mention', () => {
   })
 
   it('should work with `on-search` prop', async () => {
-    const onSearch = jest.fn()
+    const onSearch = vi.fn()
     const wrapper = mount(NMention, {
       attachTo: document.body,
       props: { options: options, 'on-search': onSearch }
@@ -179,7 +179,7 @@ describe('n-mention', () => {
   })
 
   it('should work with `on-blur` prop', async () => {
-    const onBlur = jest.fn()
+    const onBlur = vi.fn()
     const wrapper = mount(NMention, {
       attachTo: document.body,
       props: { options: options, 'on-blur': onBlur }

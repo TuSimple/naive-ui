@@ -46,7 +46,7 @@ describe('n-tabs', () => {
   })
 
   it('should show AddIcon with `addable` `on-add` prop', async () => {
-    const onAdd = jest.fn()
+    const onAdd = vi.fn()
     const wrapper = mount(NTabs, {
       props: {
         type: 'card',
@@ -308,7 +308,7 @@ describe('n-tabs', () => {
   })
 
   it('should work with `on-close` prop', async () => {
-    const onClose = jest.fn()
+    const onClose = vi.fn()
     const wrapper = mount(NTabs, {
       props: {
         type: 'card',

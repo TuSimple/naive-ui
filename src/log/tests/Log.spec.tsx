@@ -4,7 +4,7 @@ import { NLog } from '../index'
 
 describe('n-log', () => {
   it('should warn with language setted & no hljs is set', () => {
-    const spy = jest.spyOn(console, 'error').mockImplementation()
+    const spy = vi.spyOn(console, 'error').mockImplementation()
     mount(NLog)
     expect(spy).not.toHaveBeenCalled()
     mount(NLog, {
@@ -81,9 +81,9 @@ describe('n-log', () => {
 
   it('should work with `scrollTo` `on-require-more` `on-reach-top` `on-reach-bottom` prop', async () => {
     const lines = ['test1', 'test2', 'test3', 'test4', 'test5', 'test6']
-    const onRequireMore = jest.fn()
-    const onReachTop = jest.fn()
-    const onReachBottom = jest.fn()
+    const onRequireMore = vi.fn()
+    const onReachTop = vi.fn()
+    const onReachBottom = vi.fn()
     const wrapper = mount(
       defineComponent({
         setup () {

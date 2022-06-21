@@ -53,7 +53,7 @@ describe('n-popconfirm', () => {
   })
 
   it('should work with `on-positive-click` prop', async () => {
-    const onClick = jest.fn()
+    const onClick = vi.fn()
     const wrapper = mount(NPopconfirm, {
       attachTo: document.body,
       props: {
@@ -75,7 +75,7 @@ describe('n-popconfirm', () => {
   })
 
   it('should work with `on-negative-click` prop', async () => {
-    const onClick = jest.fn()
+    const onClick = vi.fn()
     const wrapper = mount(NPopconfirm, {
       attachTo: document.body,
       props: {

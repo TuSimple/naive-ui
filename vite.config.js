@@ -76,6 +76,18 @@ module.exports = {
     ],
     exclude: ['__INDEX__']
   },
+  test: {
+    deps: {
+      inline: ['date-fns']
+    },
+    globals: true,
+    include: ['./src/**/*.(spec|test).(ts|tsx)'],
+    environment: 'jsdom',
+    setupFiles: ['./vitest.setup.ts'],
+    transformMode: {
+      web: [/\.[tj]sx$/]
+    }
+  },
   build: {
     outDir: 'site',
     rollupOptions: {

@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`n-layout should work with \`embedded\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color: rgb(250, 250, 252); --n-text-color: rgb(51, 54, 57);"`;
+exports[`n-layout > should work with \`embedded\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color: rgb(250, 250, 252); --n-text-color: rgb(51, 54, 57);"`;
 
-exports[`n-layout should work with \`inverted\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color: rgb(0, 20, 40); --n-text-color: #FFF; --n-border-color: rgb(0, 20, 40);"`;
+exports[`n-layout > should work with \`inverted\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color: rgb(0, 20, 40); --n-text-color: #FFF; --n-border-color: rgb(0, 20, 40);"`;
 
-exports[`n-layout should work with \`inverted\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-toggle-button-color: #FFF; --n-toggle-button-border: 1px solid rgb(239, 239, 245); --n-toggle-bar-color: rgba(191, 191, 191, 1); --n-toggle-bar-color-hover: rgba(153, 153, 153, 1); --n-color: rgb(0, 20, 40); --n-text-color: #FFF; --n-border-color: rgb(0, 20, 40); --n-toggle-button-icon-color: rgb(51, 54, 57); max-width: 272px; width: 272px;"`;
+exports[`n-layout > should work with \`inverted\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-toggle-button-color: #FFF; --n-toggle-button-border: 1px solid rgb(239, 239, 245); --n-toggle-bar-color: rgba(191, 191, 191, 1); --n-toggle-bar-color-hover: rgba(153, 153, 153, 1); --n-color: rgb(0, 20, 40); --n-text-color: #FFF; --n-border-color: rgb(0, 20, 40); --n-toggle-button-icon-color: rgb(51, 54, 57); max-width: 272px; width: 272px;"`;
 
-exports[`n-layout should work with \`inverted\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color: rgb(0, 20, 40); --n-text-color: #FFF; --n-border-color: rgb(0, 20, 40);"`;
+exports[`n-layout > should work with \`inverted\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color: rgb(0, 20, 40); --n-text-color: #FFF; --n-border-color: rgb(0, 20, 40);"`;

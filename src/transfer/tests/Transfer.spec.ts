@@ -28,7 +28,7 @@ describe('n-transfer', () => {
         value: 'test1'
       }
     ]
-    const onFilter = jest.fn()
+    const onFilter = vi.fn()
     const wrapper = mount(NTransfer, {
       props: { filterable: true, filter: onFilter, options: options }
     })

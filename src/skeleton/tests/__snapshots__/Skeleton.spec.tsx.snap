@@ -1,4 +1,20 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
+
+exports[`n-skeleton > should work with \`circle\` prop 1`] = `"border-radius: 50%; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd;"`;
+
+exports[`n-skeleton > should work with \`round\` prop 1`] = `"border-radius: 4096px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd;"`;
+
+exports[`n-skeleton > should work with \`sharp\` prop 1`] = `"border-radius: 3px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd;"`;
+
+exports[`n-skeleton > should work with \`size\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd; height: 28px;"`;
+
+exports[`n-skeleton > should work with \`size\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd; height: 34px;"`;
+
+exports[`n-skeleton > should work with \`size\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd; height: 40px;"`;
+
+exports[`n-skeleton > should work with \`text\` prop 1`] = `"display: inline-block; vertical-align: -0.125em; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd;"`;
+
+exports[`n-skeleton > should work with box 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd;"`;
 
 exports[`n-skeleton should work with \`circle\` prop 1`] = `"border-radius: 50%; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-color-start: #eee; --n-color-end: #ddd;"`;
 

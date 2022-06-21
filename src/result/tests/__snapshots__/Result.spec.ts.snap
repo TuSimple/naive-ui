@@ -1,4 +1,12 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
+
+exports[`n-result > should work with \`size\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-icon-size: 64px; --n-line-height: 1.6; --n-text-color: rgb(51, 54, 57); --n-title-font-size: 26px; --n-title-font-weight: 500; --n-title-text-color: rgb(31, 34, 37); --n-icon-color: #2080f0;"`;
+
+exports[`n-result > should work with \`size\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-icon-size: 80px; --n-line-height: 1.6; --n-text-color: rgb(51, 54, 57); --n-title-font-size: 32px; --n-title-font-weight: 500; --n-title-text-color: rgb(31, 34, 37); --n-icon-color: #2080f0;"`;
+
+exports[`n-result > should work with \`size\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 15px; --n-icon-size: 100px; --n-line-height: 1.6; --n-text-color: rgb(51, 54, 57); --n-title-font-size: 40px; --n-title-font-weight: 500; --n-title-text-color: rgb(31, 34, 37); --n-icon-color: #2080f0;"`;
+
+exports[`n-result > should work with \`size\` prop 4`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 16px; --n-icon-size: 125px; --n-line-height: 1.6; --n-text-color: rgb(51, 54, 57); --n-title-font-size: 48px; --n-title-font-weight: 500; --n-title-text-color: rgb(31, 34, 37); --n-icon-color: #2080f0;"`;
 
 exports[`n-result should work with \`size\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-icon-size: 64px; --n-line-height: 1.6; --n-text-color: rgb(51, 54, 57); --n-title-font-size: 26px; --n-title-font-weight: 500; --n-title-text-color: rgb(31, 34, 37); --n-icon-color: #2080f0;"`;
 

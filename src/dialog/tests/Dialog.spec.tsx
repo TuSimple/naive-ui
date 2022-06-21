@@ -120,7 +120,7 @@ describe('n-dialog', () => {
   })
 
   it('onMaskClick', async () => {
-    const onMaskClick = jest.fn()
+    const onMaskClick = vi.fn()
     const mousedownEvent = new MouseEvent('mousedown', { bubbles: true })
     const mouseupEvent = new MouseEvent('mouseup', { bubbles: true })
     const Test = defineComponent({

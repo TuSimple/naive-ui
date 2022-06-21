@@ -11,7 +11,7 @@ describe('n-input', () => {
   })
 
   it('should call input callbacks', async () => {
-    const onUpdateValue = jest.fn()
+    const onUpdateValue = vi.fn()
     const wrapper = mount(NInput, {
       props: {
         onUpdateValue
@@ -176,7 +176,7 @@ describe('n-input', () => {
   })
 
   it('should work with `on-blur` prop', async () => {
-    const onBlur = jest.fn()
+    const onBlur = vi.fn()
     const wrapper = mount(NInput, {
       props: { onBlur: onBlur }
     })
@@ -187,7 +187,7 @@ describe('n-input', () => {
   })
 
   it('should work with `on-change` prop', async () => {
-    const onChange = jest.fn()
+    const onChange = vi.fn()
     const wrapper = mount(NInput, {
       props: { onChange: onChange }
     })
@@ -199,7 +199,7 @@ describe('n-input', () => {
   })
 
   it('should work with `on-focus` prop', async () => {
-    const onFocus = jest.fn()
+    const onFocus = vi.fn()
     const wrapper = mount(NInput, {
       props: { onFocus: onFocus }
     })
@@ -209,7 +209,7 @@ describe('n-input', () => {
   })
 
   it('should work with `on-input` prop', async () => {
-    const onInput = jest.fn()
+    const onInput = vi.fn()
     const wrapper = mount(NInput, {
       props: { onInput: onInput }
     })
@@ -220,7 +220,7 @@ describe('n-input', () => {
   })
 
   it('should work with `on-update:value` prop', async () => {
-    const onUpdateValue = jest.fn()
+    const onUpdateValue = vi.fn()
     const wrapper = mount(NInput, {
       props: { onUpdateValue: onUpdateValue }
     })
@@ -291,9 +291,9 @@ describe('n-input', () => {
   })
 
   it('should work with `blur` `focus` `select` methods', async () => {
-    const onBlur = jest.fn()
-    const onFocus = jest.fn()
-    const onSelect = jest.fn()
+    const onBlur = vi.fn()
+    const onFocus = vi.fn()
+    const onSelect = vi.fn()
     const Mock = defineComponent({
       setup () {
         const inputInstRef: any = ref(null)

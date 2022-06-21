@@ -45,7 +45,7 @@ describe('n-calendar', () => {
   })
 
   it('should work with `on-update:value` prop', async () => {
-    const onUpdate = jest.fn()
+    const onUpdate = vi.fn()
     const wrapper = mount(NCalendar, { props: { 'on-update:value': onUpdate } })
 
     await wrapper.findAll('.n-calendar-date')[1].trigger('click')

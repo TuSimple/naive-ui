@@ -39,7 +39,7 @@ describe('n-notification', () => {
   })
 
   it('can change content', (done) => {
-    const changeContent = jest.fn((nRef: Ref) => {
+    const changeContent = vi.fn((nRef: Ref) => {
       nRef.value.content = 'change info'
     })
     const Test = defineComponent({

@@ -114,7 +114,7 @@ describe('n-auto-complete', () => {
   })
 
   it('should work with `on-blur` prop', async () => {
-    const onBlur = jest.fn()
+    const onBlur = vi.fn()
     const wrapper = mount(NAutoComplete, {
       props: { onBlur: onBlur }
     })
@@ -125,7 +125,7 @@ describe('n-auto-complete', () => {
   })
 
   it('should work with `on-focus` prop', async () => {
-    const onFocus = jest.fn()
+    const onFocus = vi.fn()
     const wrapper = mount(NAutoComplete, {
       props: { onFocus: onFocus }
     })

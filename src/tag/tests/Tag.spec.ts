@@ -19,7 +19,7 @@ describe('n-tag', () => {
   })
 
   it('should be clickable', () => {
-    const onClick = jest.fn()
+    const onClick = vi.fn()
     const wrapper = mount(NTag, {
       props: {
         onClick
@@ -45,7 +45,7 @@ describe('n-tag', () => {
   })
 
   it('should work with `on-update:checked` prop', () => {
-    const onChecked = jest.fn()
+    const onChecked = vi.fn()
     const wrapper = mount(NTag, {
       props: {
         checkable: true,
@@ -60,7 +60,7 @@ describe('n-tag', () => {
   })
 
   it('should work with `closable` `on-close` prop', () => {
-    const onClose = jest.fn()
+    const onClose = vi.fn()
     const wrapper = mount(NTag, {
       props: {
         closable: true,
@@ -74,7 +74,7 @@ describe('n-tag', () => {
   })
 
   it('should work with `disabled` prop', async () => {
-    const onClose = jest.fn()
+    const onClose = vi.fn()
     const wrapper = mount(NTag, {
       props: {
         disabled: true,

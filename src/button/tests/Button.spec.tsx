@@ -9,7 +9,7 @@ describe('n-button', () => {
     mount(NButton)
   })
   it('clickable', async () => {
-    const onClick = jest.fn()
+    const onClick = vi.fn()
     const inst = mount(NButton, {
       props: {
         onClick
@@ -20,7 +20,7 @@ describe('n-button', () => {
     inst.unmount()
   })
   it('keyboard', async () => {
-    const onClick = jest.fn()
+    const onClick = vi.fn()
     const inst = mount(NButton, {
       props: {
         keyboard: false,
@@ -36,7 +36,7 @@ describe('n-button', () => {
     inst.unmount()
   })
   it('disabled', async () => {
-    const onClick = jest.fn()
+    const onClick = vi.fn()
     const inst = mount(NButton, {
       props: {
         disabled: true,

@@ -1,5 +1,5 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`n-gradient-text should work with \`gradient\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-rotate: 252deg; --n-color-start: rgba(24, 160, 88, 0.6); --n-color-end: #18a058; --n-font-weight: 500;"`;
+exports[`n-gradient-text > should work with \`gradient\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-rotate: 252deg; --n-color-start: rgba(24, 160, 88, 0.6); --n-color-end: #18a058; --n-font-weight: 500;"`;
 
-exports[`n-gradient-text should work with \`gradient\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-rotate: 252deg; --n-color-start: rgba(24, 160, 88, 0.6); --n-color-end: #18a058; --n-font-weight: 500;"`;
+exports[`n-gradient-text > should work with \`gradient\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-rotate: 252deg; --n-color-start: rgba(24, 160, 88, 0.6); --n-color-end: #18a058; --n-font-weight: 500;"`;

@@ -127,7 +127,7 @@ describe('n-color-picker', () => {
       wrapper.unmount()
     })
     it('output according to mode', async () => {
-      const onUpdateValue = jest.fn()
+      const onUpdateValue = vi.fn()
       const output = {
         RGBA: {
           mode: 'rgb',

@@ -53,7 +53,7 @@ describe('n-data-table', () => {
   })
 
   it('should work with `itemCount` with `remote`', async () => {
-    const onPageChange = jest.fn((page: number): void => {
+    const onPageChange = vi.fn((page: number): void => {
       setTimeout(() => {
         pagination.page = page
         pagination.itemCount = data.length
@@ -786,7 +786,7 @@ describe('n-data-table', () => {
   })
 
   it('should work with `on-update:checked-row-keys` prop', async () => {
-    const handleCheck = jest.fn()
+    const handleCheck = vi.fn()
     const columns: DataTableColumns = [
       {
         type: 'selection'

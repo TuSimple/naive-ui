@@ -30,7 +30,7 @@ describe('n-page-header', () => {
   })
 
   it('should work with `on-back` prop', async () => {
-    const handleOnBack = jest.fn()
+    const handleOnBack = vi.fn()
     const wrapper = mount(NPageHeader, { props: { onBack: handleOnBack } })
 
     expect(wrapper.find('.n-page-header__back').exists()).toBe(true)

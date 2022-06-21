@@ -180,7 +180,7 @@ describe('n-cascader', () => {
   })
 
   it('should work with `on-blur` prop', async () => {
-    const onBlur = jest.fn()
+    const onBlur = vi.fn()
     const wrapper = mount(NCascader, {
       props: { options: getOptions(), onBlur: onBlur }
     })
@@ -190,7 +190,7 @@ describe('n-cascader', () => {
   })
 
   it('should work with `on-focus` prop', async () => {
-    const onFocus = jest.fn()
+    const onFocus = vi.fn()
     const wrapper = mount(NCascader, {
       props: { options: getOptions(), onFocus: onFocus }
     })

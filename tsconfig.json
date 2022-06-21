@@ -1,5 +1,9 @@
+/// <reference types="vitest" />
 {
   "compilerOptions": {
+    "types": [
+      "vitest/globals"
+    ],
     "paths": {
       "naive-ui": ["./src"]
     },

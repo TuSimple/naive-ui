@@ -1,4 +1,10 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
+
+exports[`n-rate > should work with \`size\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-item-color: rgb(219, 219, 223); --n-item-color-active: #FFCC33; --n-item-size: 16px;"`;
+
+exports[`n-rate > should work with \`size\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-item-color: rgb(219, 219, 223); --n-item-color-active: #FFCC33; --n-item-size: 20px;"`;
+
+exports[`n-rate > should work with \`size\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-item-color: rgb(219, 219, 223); --n-item-color-active: #FFCC33; --n-item-size: 24px;"`;
 
 exports[`n-rate should work with \`size\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-item-color: rgb(219, 219, 223); --n-item-color-active: #FFCC33; --n-item-size: 16px;"`;
 

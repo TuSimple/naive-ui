@@ -137,7 +137,7 @@ describe('n-dynamic-input', () => {
   })
 
   it('should work with `on-create` prop', async () => {
-    const onCreate = jest.fn()
+    const onCreate = vi.fn()
     const wrapper = mount(NDynamicInput, {
       props: {
         value: [''],
@@ -151,7 +151,7 @@ describe('n-dynamic-input', () => {
   })
 
   it('should work with `on-remove` prop', async () => {
-    const onRemove = jest.fn()
+    const onRemove = vi.fn()
     const wrapper = mount(NDynamicInput, {
       props: {
         value: [''],

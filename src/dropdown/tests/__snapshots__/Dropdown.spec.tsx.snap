@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`n-dropdown dropdown clickoutside 1`] = `
+exports[`n-dropdown > dropdown clickoutside 1`] = `
 <div
   class="n-dropdown-menu n-popover-shared n-dropdown"
   style="--n-box-shadow: 0 3px 6px -4px rgba(0, 0, 0, .12), 0 6px 16px 0 rgba(0, 0, 0, .08), 0 9px 28px 8px rgba(0, 0, 0, .05); --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-bezier-ease-in: cubic-bezier(.4, 0, 1, 1); --n-bezier-ease-out: cubic-bezier(0, 0, .2, 1); --n-font-size: 14px; --n-text-color: rgb(51, 54, 57); --n-color: #fff; --n-divider-color: rgb(239, 239, 245); --n-border-radius: 3px; --n-arrow-height: 6px; --n-arrow-offset: 10px; --n-arrow-offset-vertical: 10px; --n-padding: 4px 0; --n-space: 6px; --n-space-arrow: 10px; --n-option-height: 34px; --n-option-prefix-width: 14px; --n-option-icon-prefix-width: 36px; --n-option-suffix-width: 14px; --n-option-icon-suffix-width: 32px; --n-option-icon-size: 16px; --n-option-opacity-disabled: 0.5; --n-option-color-hover: rgb(243, 243, 245); --n-option-color-active: rgba(24, 160, 88, 0.1); --n-option-text-color: rgb(51, 54, 57); --n-option-text-color-hover: rgb(51, 54, 57); --n-option-text-color-active: #18a058; --n-option-text-color-child-active: #18a058; --n-prefix-color: rgb(51, 54, 57); --n-suffix-color: rgb(51, 54, 57); --n-group-header-text-color: rgb(118, 124, 130);"
@@ -242,7 +242,7 @@ exports[`n-dropdown dropdown clickoutside 1`] = `
 </div>
 `;
 
-exports[`n-dropdown inverted style 1`] = `
+exports[`n-dropdown > inverted style 1`] = `
 <div
   class="n-dropdown-menu n-popover-shared n-dropdown"
   style="--n-box-shadow: 0 3px 6px -4px rgba(0, 0, 0, .12), 0 6px 16px 0 rgba(0, 0, 0, .08), 0 9px 28px 8px rgba(0, 0, 0, .05); --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-bezier-ease-in: cubic-bezier(.4, 0, 1, 1); --n-bezier-ease-out: cubic-bezier(0, 0, .2, 1); --n-font-size: 14px; --n-text-color: rgb(51, 54, 57); --n-color: rgb(0, 20, 40); --n-divider-color: rgb(239, 239, 245); --n-border-radius: 3px; --n-arrow-height: 6px; --n-arrow-offset: 10px; --n-arrow-offset-vertical: 10px; --n-padding: 4px 0; --n-space: 6px; --n-space-arrow: 10px; --n-option-height: 34px; --n-option-prefix-width: 14px; --n-option-icon-prefix-width: 36px; --n-option-suffix-width: 14px; --n-option-icon-suffix-width: 32px; --n-option-icon-size: 16px; --n-option-opacity-disabled: 0.5; --n-option-color-hover: #18a058; --n-option-color-active: #18a058; --n-option-text-color: #BBB; --n-option-text-color-hover: #FFF; --n-option-text-color-active: #FFF; --n-option-text-color-child-active: #FFF; --n-prefix-color: #BBB; --n-suffix-color: #BBB; --n-group-header-text-color: #AAA;"
@@ -465,7 +465,7 @@ exports[`n-dropdown inverted style 1`] = `
 </div>
 `;
 
-exports[`n-dropdown should work with \`render-icon\` props 1`] = `
+exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
 <div
   class="n-dropdown-menu n-popover-shared n-dropdown"
   style="--n-box-shadow: 0 3px 6px -4px rgba(0, 0, 0, .12), 0 6px 16px 0 rgba(0, 0, 0, .08), 0 9px 28px 8px rgba(0, 0, 0, .05); --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-bezier-ease-in: cubic-bezier(.4, 0, 1, 1); --n-bezier-ease-out: cubic-bezier(0, 0, .2, 1); --n-font-size: 14px; --n-text-color: rgb(51, 54, 57); --n-color: #fff; --n-divider-color: rgb(239, 239, 245); --n-border-radius: 3px; --n-arrow-height: 6px; --n-arrow-offset: 10px; --n-arrow-offset-vertical: 10px; --n-padding: 4px 0; --n-space: 6px; --n-space-arrow: 10px; --n-option-height: 34px; --n-option-prefix-width: 14px; --n-option-icon-prefix-width: 36px; --n-option-suffix-width: 14px; --n-option-icon-suffix-width: 32px; --n-option-icon-size: 16px; --n-option-opacity-disabled: 0.5; --n-option-color-hover: rgb(243, 243, 245); --n-option-color-active: rgba(24, 160, 88, 0.1); --n-option-text-color: rgb(51, 54, 57); --n-option-text-color-hover: rgb(51, 54, 57); --n-option-text-color-active: #18a058; --n-option-text-color-child-active: #18a058; --n-prefix-color: rgb(51, 54, 57); --n-suffix-color: rgb(51, 54, 57); --n-group-header-text-color: rgb(118, 124, 130);"
@@ -852,7 +852,7 @@ exports[`n-dropdown should work with \`render-icon\` props 1`] = `
 </div>
 `;
 
-exports[`n-dropdown should work with \`render-label\` props 1`] = `
+exports[`n-dropdown > should work with \`render-label\` props 1`] = `
 <div
   class="n-dropdown-menu n-popover-shared n-dropdown"
   style="--n-box-shadow: 0 3px 6px -4px rgba(0, 0, 0, .12), 0 6px 16px 0 rgba(0, 0, 0, .08), 0 9px 28px 8px rgba(0, 0, 0, .05); --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-bezier-ease-in: cubic-bezier(.4, 0, 1, 1); --n-bezier-ease-out: cubic-bezier(0, 0, .2, 1); --n-font-size: 14px; --n-text-color: rgb(51, 54, 57); --n-color: #fff; --n-divider-color: rgb(239, 239, 245); --n-border-radius: 3px; --n-arrow-height: 6px; --n-arrow-offset: 10px; --n-arrow-offset-vertical: 10px; --n-padding: 4px 0; --n-space: 6px; --n-space-arrow: 10px; --n-option-height: 34px; --n-option-prefix-width: 14px; --n-option-icon-prefix-width: 36px; --n-option-suffix-width: 14px; --n-option-icon-suffix-width: 32px; --n-option-icon-size: 16px; --n-option-opacity-disabled: 0.5; --n-option-color-hover: rgb(243, 243, 245); --n-option-color-active: rgba(24, 160, 88, 0.1); --n-option-text-color: rgb(51, 54, 57); --n-option-text-color-hover: rgb(51, 54, 57); --n-option-text-color-active: #18a058; --n-option-text-color-child-active: #18a058; --n-prefix-color: rgb(51, 54, 57); --n-suffix-color: rgb(51, 54, 57); --n-group-header-text-color: rgb(118, 124, 130);"
@@ -1091,9 +1091,9 @@ exports[`n-dropdown should work with \`render-label\` props 1`] = `
 </div>
 `;
 
-exports[`n-dropdown shows arrow 1`] = `null`;
+exports[`n-dropdown > shows arrow 1`] = `null`;
 
-exports[`n-dropdown shows menu after click 1`] = `
+exports[`n-dropdown > shows menu after click 1`] = `
 <div
   class="n-dropdown-menu n-popover-shared n-dropdown"
   style="--n-box-shadow: 0 3px 6px -4px rgba(0, 0, 0, .12), 0 6px 16px 0 rgba(0, 0, 0, .08), 0 9px 28px 8px rgba(0, 0, 0, .05); --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-bezier-ease-in: cubic-bezier(.4, 0, 1, 1); --n-bezier-ease-out: cubic-bezier(0, 0, .2, 1); --n-font-size: 14px; --n-text-color: rgb(51, 54, 57); --n-color: #fff; --n-divider-color: rgb(239, 239, 245); --n-border-radius: 3px; --n-arrow-height: 6px; --n-arrow-offset: 10px; --n-arrow-offset-vertical: 10px; --n-padding: 4px 0; --n-space: 6px; --n-space-arrow: 10px; --n-option-height: 34px; --n-option-prefix-width: 14px; --n-option-icon-prefix-width: 36px; --n-option-suffix-width: 14px; --n-option-icon-suffix-width: 32px; --n-option-icon-size: 16px; --n-option-opacity-disabled: 0.5; --n-option-color-hover: rgb(243, 243, 245); --n-option-color-active: rgba(24, 160, 88, 0.1); --n-option-text-color: rgb(51, 54, 57); --n-option-text-color-hover: rgb(51, 54, 57); --n-option-text-color-active: #18a058; --n-option-text-color-child-active: #18a058; --n-prefix-color: rgb(51, 54, 57); --n-suffix-color: rgb(51, 54, 57); --n-group-header-text-color: rgb(118, 124, 130);"

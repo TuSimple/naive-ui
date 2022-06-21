@@ -1,6 +1,20 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
+
+exports[`n-blockquote > should work with normal 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-prefix-color: rgb(224, 224, 230); --n-text-color: rgb(51, 54, 57);"`;
 
 exports[`n-blockquote should work with normal 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-prefix-color: rgb(224, 224, 230); --n-text-color: rgb(51, 54, 57);"`;
+
+exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 > should work with normal 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 30px; --n-margin: 28px 0 20px 0; --n-bar-color: #18a058; --n-bar-width: 4px; --n-font-weight: 500; --n-text-color: rgb(31, 34, 37); --n-prefix-width: 16px;"`;
+
+exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 > should work with normal 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 22px; --n-margin: 28px 0 20px 0; --n-bar-color: #18a058; --n-bar-width: 4px; --n-font-weight: 500; --n-text-color: rgb(31, 34, 37); --n-prefix-width: 16px;"`;
+
+exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 > should work with normal 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 18px; --n-margin: 28px 0 20px 0; --n-bar-color: #18a058; --n-bar-width: 3px; --n-font-weight: 500; --n-text-color: rgb(31, 34, 37); --n-prefix-width: 12px;"`;
+
+exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 > should work with normal 4`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 16px; --n-margin: 28px 0 18px 0; --n-bar-color: #2080f0; --n-bar-width: 3px; --n-font-weight: 500; --n-text-color: rgb(31, 34, 37); --n-prefix-width: 12px;"`;
+
+exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 > should work with normal 5`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 16px; --n-margin: 28px 0 18px 0; --n-bar-color: #f0a020; --n-bar-width: 3px; --n-font-weight: 500; --n-text-color: rgb(31, 34, 37); --n-prefix-width: 12px;"`;
+
+exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 > should work with normal 6`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 16px; --n-margin: 28px 0 18px 0; --n-bar-color: #d03050; --n-bar-width: 3px; --n-font-weight: 500; --n-text-color: rgb(31, 34, 37); --n-prefix-width: 12px;"`;
 
 exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 should work with normal 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 30px; --n-margin: 28px 0 20px 0; --n-bar-color: #18a058; --n-bar-width: 4px; --n-font-weight: 500; --n-text-color: rgb(31, 34, 37); --n-prefix-width: 16px;"`;
 
@@ -14,11 +28,35 @@ exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 should work with normal 5`] = `"--n-bezie
 
 exports[`n-h1 n-h2 n-h3 n-h4 n-h5 n-h6 should work with normal 6`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 16px; --n-margin: 28px 0 18px 0; --n-bar-color: #d03050; --n-bar-width: 3px; --n-font-weight: 500; --n-text-color: rgb(31, 34, 37); --n-prefix-width: 12px;"`;
 
+exports[`n-p > should work with \`depth\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-margin: 16px 0 16px 0; --n-text-color: rgb(31, 34, 37);"`;
+
+exports[`n-p > should work with \`depth\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-margin: 16px 0 16px 0; --n-text-color: rgb(51, 54, 57);"`;
+
+exports[`n-p > should work with \`depth\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-margin: 16px 0 16px 0; --n-text-color: rgb(118, 124, 130);"`;
+
 exports[`n-p should work with \`depth\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-margin: 16px 0 16px 0; --n-text-color: rgb(31, 34, 37);"`;
 
 exports[`n-p should work with \`depth\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-margin: 16px 0 16px 0; --n-text-color: rgb(51, 54, 57);"`;
 
 exports[`n-p should work with \`depth\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-margin: 16px 0 16px 0; --n-text-color: rgb(118, 124, 130);"`;
+
+exports[`n-text > should work with \`depth\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgb(51, 54, 57); --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-text > should work with \`depth\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgb(31, 34, 37); --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-text > should work with \`depth\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgb(51, 54, 57); --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-text > should work with \`depth\` prop 4`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgb(118, 124, 130); --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-text > should work with \`type\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgb(51, 54, 57); --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-text > should work with \`type\` prop 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: #2080f0; --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-text > should work with \`type\` prop 3`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: #18a058; --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-text > should work with \`type\` prop 4`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: #f0a020; --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-text > should work with \`type\` prop 5`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: #d03050; --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
 
 exports[`n-text should work with \`depth\` prop 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgb(51, 54, 57); --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
 
@@ -37,6 +75,10 @@ exports[`n-text should work with \`type\` prop 3`] = `"--n-bezier: cubic-bezier(
 exports[`n-text should work with \`type\` prop 4`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: #f0a020; --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
 
 exports[`n-text should work with \`type\` prop 5`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: #d03050; --n-font-weight-strong: 500; --n-font-famliy-mono: v-mono, SFMono-Regular, Menlo, Consolas, Courier, monospace; --n-code-border-radius: 2px; --n-code-text-color: rgb(51, 54, 57); --n-code-color: rgb(244, 244, 248); --n-code-border: 1px solid #0000;"`;
+
+exports[`n-ul n-ol n-li > should work with normal 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-text-color: rgb(51, 54, 57); --n-li-margin: .25em 0 0 0; --n-ol-padding: 0 0 0 2em; --n-ul-padding: 0 0 0 2em;"`;
+
+exports[`n-ul n-ol n-li > should work with normal 2`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-text-color: rgb(51, 54, 57); --n-li-margin: .25em 0 0 0; --n-ol-padding: 0 0 0 2em; --n-ul-padding: 0 0 0 2em;"`;
 
 exports[`n-ul n-ol n-li should work with normal 1`] = `"--n-bezier: cubic-bezier(.4, 0, .2, 1); --n-font-size: 14px; --n-line-height: 1.6; --n-text-color: rgb(51, 54, 57); --n-li-margin: .25em 0 0 0; --n-ol-padding: 0 0 0 2em; --n-ul-padding: 0 0 0 2em;"`;
 

@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import { defineComponent, h } from 'vue'
+import { defineComponent, h, nextTick } from 'vue'
 import { NLoadingBarProvider, useLoadingBar } from '../index'
 
 const Provider = defineComponent({
@@ -13,7 +13,7 @@ describe('n-loading-bar', () => {
     mount(NLoadingBarProvider)
   })
 
-  it('should have start type', (done) => {
+  it('should have start type', async () => {
     const Test = defineComponent({
       setup () {
         const loadingBar = useLoadingBar()
@@ -26,11 +26,9 @@ describe('n-loading-bar', () => {
     const wrapper = mount(() => (
       <Provider>{{ default: () => <Test /> }}</Provider>
     ))
-    setTimeout(() => {
-      expect(document.querySelector('.n-loading-bar')).not.toEqual(null)
-      wrapper.unmount()
-      done()
-    }, 0)
+    await nextTick()
+    expect(document.querySelector('.n-loading-bar')).not.toEqual(null)
+    wrapper.unmount()
   })
 
   it('should have finish type', (done) => {

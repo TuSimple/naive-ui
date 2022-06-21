@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`n-empty should work with \`size\` prop 1`] = `"--n-icon-size: 40px; --n-font-size: 14px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgba(194, 194, 194, 1); --n-icon-color: rgba(194, 194, 194, 1); --n-extra-text-color: rgb(51, 54, 57);"`;
+exports[`n-empty > should work with \`size\` prop 1`] = `"--n-icon-size: 40px; --n-font-size: 14px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgba(194, 194, 194, 1); --n-icon-color: rgba(194, 194, 194, 1); --n-extra-text-color: rgb(51, 54, 57);"`;
 
-exports[`n-empty should work with \`size\` prop 2`] = `"--n-icon-size: 34px; --n-font-size: 14px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgba(194, 194, 194, 1); --n-icon-color: rgba(194, 194, 194, 1); --n-extra-text-color: rgb(51, 54, 57);"`;
+exports[`n-empty > should work with \`size\` prop 2`] = `"--n-icon-size: 34px; --n-font-size: 14px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgba(194, 194, 194, 1); --n-icon-color: rgba(194, 194, 194, 1); --n-extra-text-color: rgb(51, 54, 57);"`;
 
-exports[`n-empty should work with \`size\` prop 3`] = `"--n-icon-size: 46px; --n-font-size: 15px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgba(194, 194, 194, 1); --n-icon-color: rgba(194, 194, 194, 1); --n-extra-text-color: rgb(51, 54, 57);"`;
+exports[`n-empty > should work with \`size\` prop 3`] = `"--n-icon-size: 46px; --n-font-size: 15px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgba(194, 194, 194, 1); --n-icon-color: rgba(194, 194, 194, 1); --n-extra-text-color: rgb(51, 54, 57);"`;
 
-exports[`n-empty should work with \`size\` prop 4`] = `"--n-icon-size: 52px; --n-font-size: 16px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgba(194, 194, 194, 1); --n-icon-color: rgba(194, 194, 194, 1); --n-extra-text-color: rgb(51, 54, 57);"`;
+exports[`n-empty > should work with \`size\` prop 4`] = `"--n-icon-size: 52px; --n-font-size: 16px; --n-bezier: cubic-bezier(.4, 0, .2, 1); --n-text-color: rgba(194, 194, 194, 1); --n-icon-color: rgba(194, 194, 194, 1); --n-extra-text-color: rgb(51, 54, 57);"`;
