@@ -113,6 +113,9 @@
 - 修复 `n-data-table` 在列同时设为 `ellipsis` 和 `fixed` 时会丢失固定列的阴影
 - 修复 `n-image` 的 `lazy` 属性在 Safari 和 Firefox 上工作不正常
 
+### Feats
+- `n-transfer` 新增 `back-icon` and `forward-icon` 插槽, 关闭 [#2668](https://github.com/TuSimple/naive-ui/issues/2668).
+
 ## 2.30.5
 
 ### Fixes

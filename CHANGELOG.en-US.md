@@ -113,6 +113,9 @@
 - Fix `n-data-table`'s column will lose box shadow when set to `ellipsis` & `fixed` simultaneously, closes [#3145](https://github.com/TuSimple/naive-ui/issues/3145).
 - Fix `n-image`'s `lazy` prop doesn't work on Safari & Firefox.
 
+### Feats
+- `n-transfer` adds `back-icon` and `forward-icon` slots, closes [#2668](https://github.com/TuSimple/naive-ui/issues/2668).
+
 ## 2.30.5
 
 ### Fixes
@@ -2520,7 +2523,7 @@ Update package.json & README.md.
 - `n-popover` adds `get-disabled` prop.
 - adds `n-ellipsis` component.
 - `n-popover`'s `width` prop adds `'trigger'` option.
-- `n-data-table`'s columns's `ellipsis` prop can be set as props of `n-ellipsis`. x
+- `n-data-table`'s columns's `ellipsis` prop can be set as props of `n-ellipsis`.
 
 ### Fixes
 

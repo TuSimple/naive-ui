@@ -14,7 +14,7 @@ import { NButton } from '../../button'
 import { useLocale, useFormItem, useTheme, useConfig } from '../../_mixins'
 import type { ThemeProps } from '../../_mixins'
 import { createKey } from '../../_utils/cssr'
-import { warn, call, ExtractPublicPropTypes } from '../../_utils'
+import { warn, call, ExtractPublicPropTypes, resolveSlot } from '../../_utils'
 import type { MaybeArray } from '../../_utils'
 import { transferLight } from '../styles'
 import type { TransferTheme } from '../styles'
@@ -296,7 +296,7 @@ export default defineComponent({
     }
   },
   render () {
-    const { mergedClsPrefix } = this
+    const { mergedClsPrefix, $slots } = this
     return (
       <div
         class={[
@@ -347,7 +347,12 @@ export default defineComponent({
             {{
               icon: () => (
                 <NBaseIcon clsPrefix={mergedClsPrefix}>
-                  {{ default: () => <ChevronRightIcon /> }}
+                  {{
+                    default: () =>
+                      resolveSlot($slots['forward-icon'], () => [
+                        <ChevronRightIcon />
+                      ])
+                  }}
                 </NBaseIcon>
               )
             }}
@@ -361,7 +366,12 @@ export default defineComponent({
             {{
               icon: () => (
                 <NBaseIcon clsPrefix={mergedClsPrefix}>
-                  {{ default: () => <ChevronLeftIcon /> }}
+                  {{
+                    default: () =>
+                      resolveSlot($slots['back-icon'], () => [
+                        <ChevronLeftIcon />
+                      ])
+                  }}
                 </NBaseIcon>
               )
             }}

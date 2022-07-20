@@ -11,6 +11,7 @@ basic.vue
 large-data.vue
 size.vue
 filterable.vue
+icon.vue
 ```
 
 ## API
@@ -40,3 +41,10 @@ filterable.vue
 | label    | `string`           | 选项中用以页面显示的名称 |
 | value    | `string \| number` | 所有选项中唯一的 `value` |
 | disabled | `boolean`          | 是否禁用这个选项         |
+
+### TransferOption Slots
+
+| 名称         | 参数 | 说明           | 版本         |
+| ------------ | ---- | -------------- | ------------ |
+| back-icon    | `()` | 左箭头图标插槽 | NEXT_VERSION |
+| forward-icon | `()` | 右箭头图标插槽 | NEXT_VERSION |

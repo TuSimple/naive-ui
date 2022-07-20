@@ -11,6 +11,7 @@ basic.vue
 large-data.vue
 size.vue
 filterable.vue
+icon.vue
 ```
 
 ## API
@@ -40,3 +41,10 @@ filterable.vue
 | label    | `string`           | The option's label to display. |
 | value    | `string \| number` | The option's unique value.     |
 | disabled | `boolean`          | The option's disabled state.   |
+
+### TransferOption Slots
+
+| Name         | Parameters | Description           | Version      |
+| ------------ | ---------- | --------------------- | ------------ |
+| back-icon    | `()`       | icon of arrow back    | NEXT_VERSION |
+| forward-icon | `()`       | icon of arrow forward | NEXT_VERSION |
