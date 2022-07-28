@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## NEXT_VERSION
+
+### Fixes
+
+### Feats
+
+- `n-menu` add `hidden` prop to set whether the Menu item is hidden, closes [#3334](https://github.com/TuSimple/naive-ui/issues/3334)
+
 ## 2.32.0
 
 ### Breaking Changes

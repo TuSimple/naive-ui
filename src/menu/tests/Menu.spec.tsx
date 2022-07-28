@@ -406,4 +406,28 @@ describe('n-menu', () => {
       />
     )
   })
+
+  it('should work with `hidden` prop', async () => {
+    const options = [
+      {
+        label: 'fantasy',
+        key: 'fantasy',
+        hidden: true
+      },
+      {
+        label: 'mojito',
+        key: 'mojito'
+      },
+      {
+        label: 'initialj',
+        key: 'initialj'
+      }
+    ]
+    const wrapper = mount(NMenu, {
+      props: {
+        options: options
+      }
+    })
+    expect(wrapper.findAll('.n-menu-item-content').length).toBe(2)
+  })
 })

@@ -36,7 +36,10 @@ export function itemRenderer (
   menuProps: MenuSetupProps
 ): VNode | undefined {
   const { rawNode } = tmNode
-
+  const { hidden } = rawNode
+  if (hidden) {
+    return undefined
+  }
   if (isIgnoredNode(rawNode)) {
     if (isDividerNode(rawNode)) {
       return <NMenuDivider key={tmNode.key} {...rawNode.props} />

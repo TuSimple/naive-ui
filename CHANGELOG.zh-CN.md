@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## NEXT_VERSION
+
+### Fixes
+
+### Feats
+
+- `n-menu` 新增 `hidden` 属性，用于隐藏菜单，关闭 [#3334](https://github.com/TuSimple/naive-ui/issues/3334)
+
 ## 2.32.0
 
 ### Breaking Changes
