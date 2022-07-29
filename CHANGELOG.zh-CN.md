@@ -98,6 +98,7 @@
 - `n-drawer` 新增 `on-update:height` 属性
 - `n-drawer` 新增 `on-update:width` 属性
 - 更新 ukUA locale
+- `async-validator` 关闭 `suppressWarning` 属性
 
 ## 2.30.8
 

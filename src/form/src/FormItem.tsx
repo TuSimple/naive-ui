@@ -247,9 +247,7 @@ export default defineComponent({
     const internalValidate: FormItemInternalValidate = async (
       trigger: ValidationTrigger | string | null = null,
       shouldRuleBeApplied: ShouldRuleBeApplied = () => true,
-      options: ValidateOption = {
-        suppressWarning: true
-      }
+      options?: ValidateOption
     ): Promise<{
       valid: boolean
       errors?: ValidateError[]
