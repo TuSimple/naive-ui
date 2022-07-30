@@ -99,6 +99,7 @@
 - `n-drawer` 新增 `on-update:height` 属性
 - `n-drawer` 新增 `on-update:width` 属性
 - 更新 ukUA locale
+- `n-message` 支持 RTL
 
 ## 2.30.8
 

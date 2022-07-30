@@ -50,6 +50,7 @@ multiple-line.vue
 placement.vue
 customize-message.vue
 no-icon.vue
+rtl-debug.vue
 ```
 
 ## API

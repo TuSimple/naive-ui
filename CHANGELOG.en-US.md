@@ -99,6 +99,7 @@
 - `n-drawer` adds `on-update:width` prop.
 - `n-drawer` adds `on-update:height` prop.
 - Update ukUA locale.
+- `n-message` supports RTL.
 
 ## 2.30.8
 

@@ -20,7 +20,7 @@ import {
   NBaseClose
 } from '../../_internal'
 import { render, createKey } from '../../_utils'
-import { useConfig, useTheme, useThemeClass } from '../../_mixins'
+import { useConfig, useTheme, useThemeClass, useRtl } from '../../_mixins'
 import { messageLight } from '../styles'
 import { messageProps } from './message-props'
 import type { MessageType, MessageRenderMessage } from './types'
@@ -42,19 +42,21 @@ export default defineComponent({
     render: Function as PropType<MessageRenderMessage>
   },
   setup (props) {
-    const { inlineThemeDisabled } = useConfig()
+    const { inlineThemeDisabled, mergedRtlRef } = useConfig(props)
     const {
       props: messageProviderProps,
       mergedClsPrefixRef
       // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     } = inject(messageProviderInjectionKey)!
+    const rtlEnabledRef = useRtl('Message', mergedRtlRef, mergedClsPrefixRef)
     const themeRef = useTheme(
       'Message',
       '-message',
       style,
       messageLight,
       messageProviderProps,
-      mergedClsPrefixRef
+      mergedClsPrefixRef,
+      rtlEnabledRef
     )
     const cssVarsRef = computed(() => {
       const { type } = props
@@ -127,6 +129,7 @@ export default defineComponent({
       : undefined
     return {
       mergedClsPrefix: mergedClsPrefixRef,
+      rtlEnabled: rtlEnabledRef,
       messageProviderProps,
       handleClose () {
         props.onClose?.()
@@ -171,7 +174,10 @@ export default defineComponent({
           renderMessage(this.$props)
         ) : (
           <div
-            class={`${mergedClsPrefix}-message ${mergedClsPrefix}-message--${type}-type`}
+            class={[
+              `${mergedClsPrefix}-message ${mergedClsPrefix}-message--${type}-type`,
+              this.rtlEnabled && `${mergedClsPrefix}-message--rtl`
+            ]}
           >
             {(iconNode = createIconVNode(icon, type, mergedClsPrefix)) &&
             showIcon ? (

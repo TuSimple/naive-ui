@@ -9,6 +9,7 @@ export { badgeDark, badgeRtl as unstableBadgeRtl } from './badge/styles'
 export { breadcrumbDark } from './breadcrumb/styles'
 export { buttonDark, buttonRtl as unstableButtonRtl } from './button/styles'
 export { notificationRtl as unstableNotificationRtl } from './notification/styles'
+export { messageRtl as unstableMessageRtl } from './message/styles'
 export {
   buttonGroupDark,
   buttonGroupRtl as unstableButtonGroupRtl

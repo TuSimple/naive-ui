@@ -15,6 +15,7 @@ import { configProviderInjectionKey } from '../config-provider/src/context'
 import type { GlobalTheme } from '../config-provider'
 import type { ThemeCommonVars } from '../_styles/common'
 import { cssrAnchorMetaName } from './common'
+import { RtlItem } from '../config-provider/src/internal-interface'
 
 export interface Theme<N, T = {}, R = any> {
   name: N
@@ -90,7 +91,8 @@ function useTheme<N, T, R> (
   style: CNode | undefined,
   defaultTheme: Theme<N, T, R>,
   props: UseThemeProps<Theme<N, T, R>>,
-  clsPrefixRef?: Ref<string | undefined>
+  clsPrefixRef?: Ref<string | undefined>,
+  rtlEnabledRef?: Ref<RtlItem | undefined>
 ): ComputedRef<MergedTheme<Theme<N, T, R>>> {
   const ssrAdapter = useSsrAdapter()
   const NConfigProvider = inject(configProviderInjectionKey, null)
@@ -163,6 +165,20 @@ function useTheme<N, T, R> (
       globalSelfOverrides,
       selfOverrides
     )
+    if (rtlEnabledRef?.value?.name) {
+      Object.entries(mergedSelf).forEach(([key, val]) => {
+        if (
+          typeof val === 'string' &&
+          key.search(/(margin|Margin|padding|Padding)/) > -1
+        ) {
+          const i = (val as string).split(' ')
+          if (i.length === 4) {
+            // @ts-expect-error
+            mergedSelf[key] = [i[0], i[3], i[2], i[1]].join(' ')
+          }
+        }
+      })
+    }
     return {
       common: mergedCommon,
       self: mergedSelf,
