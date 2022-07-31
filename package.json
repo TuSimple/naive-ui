@@ -111,7 +111,7 @@
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^8.6.0",
+    "eslint-plugin-vue": "^9.3.0",
     "express": "^4.17.3",
     "fast-glob": "^3.2.11",
     "fs-extra": "^10.0.1",
