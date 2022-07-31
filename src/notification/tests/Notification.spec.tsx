@@ -1,4 +1,5 @@
 import { mount } from '@vue/test-utils'
+import { sleep } from 'seemly'
 import { defineComponent, h, ref, Ref, nextTick, onMounted } from 'vue'
 import {
   NNotificationProvider,
@@ -38,7 +39,7 @@ describe('n-notification', () => {
     wrapper.unmount()
   })
 
-  it('can change content', (done) => {
+  it('can change content', async () => {
     const changeContent = jest.fn((nRef: Ref) => {
       nRef.value.content = 'change info'
     })
@@ -61,22 +62,19 @@ describe('n-notification', () => {
     const wrapper = mount(() => (
       <Provider>{{ default: () => <Test /> }}</Provider>
     ))
-    void nextTick(() => {
-      expect(
-        document.querySelector('.n-notification-main__content')?.textContent
-      ).toEqual('info')
-      setTimeout(() => {
-        expect(changeContent).toHaveBeenCalled()
-        expect(
-          document.querySelector('.n-notification-main__content')?.textContent
-        ).toEqual('change info')
-        wrapper.unmount()
-        done()
-      }, 1000)
-    })
+    await nextTick()
+    expect(
+      document.querySelector('.n-notification-main__content')?.textContent
+    ).toEqual('info')
+    await sleep(1000)
+    expect(changeContent).toHaveBeenCalled()
+    expect(
+      document.querySelector('.n-notification-main__content')?.textContent
+    ).toEqual('change info')
+    wrapper.unmount()
   })
 
-  it('should work with duration', (done) => {
+  it('should work with duration', async () => {
     const Test = defineComponent({
       setup () {
         const notification = useNotification()
@@ -93,21 +91,17 @@ describe('n-notification', () => {
     const wrapper = mount(() => (
       <Provider>{{ default: () => <Test /> }}</Provider>
     ))
-    void nextTick(() => {
-      setTimeout(() => {
-        expect(document.querySelector('.n-notification')).not.toEqual(null)
-      }, 500)
-      setTimeout(() => {
-        expect(document.querySelector('.n-notification')).toBe(null)
-        wrapper.unmount()
-        done()
-      }, 1200)
-    })
+    await nextTick()
+    await sleep(500)
+    expect(document.querySelector('.n-notification')).not.toEqual(null)
+    await sleep(1200)
+    expect(document.querySelector('.n-notification')).toBe(null)
+    wrapper.unmount()
   })
 })
 
 describe('notification-provider', () => {
-  it('props.max', (done) => {
+  it('props.max', async () => {
     const Test = defineComponent({
       setup () {
         const notification = useNotification()
@@ -138,11 +132,9 @@ describe('notification-provider', () => {
         default: () => <Test />
       }
     })
-    setTimeout(() => {
-      expect(document.querySelectorAll('.n-notification').length).toBe(2)
-      wrapper.unmount()
-      done()
-    })
+    await nextTick()
+    expect(document.querySelectorAll('.n-notification').length).toBe(2)
+    wrapper.unmount()
   })
   it('should work with `placement` prop', async () => {
     const Test = defineComponent({
