@@ -120,7 +120,7 @@
     "jest": "^28.0.3",
     "jest-canvas-mock": "^2.3.1",
     "jest-environment-jsdom": "^28.0.2",
-    "lint-staged": "^12.3.7",
+    "lint-staged": "^13.0.3",
     "lyla": "^0.4.6",
     "marked": "^4.0.13",
     "prettier": "^2.6.2",
