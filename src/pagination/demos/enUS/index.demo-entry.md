@@ -8,6 +8,7 @@ Long data's friend.
 
 ```demo
 basic.vue
+simple.vue
 slot.vue
 quick-jumper.vue
 size.vue
@@ -40,6 +41,7 @@ page-size-option.vue
 | prefix | `(info: PaginationInfo) => VNodeChild` | `undefined` | Paging prefix. |  |
 | show-quick-jumper | `boolean` | `false` | Whether to show fast jump. |  |
 | size | `'small' \| 'medium' \| 'large'` | `'medium'` | size of page item. | 2.29.0 |
+| simple | `boolean` | `false` | whether to use simple mode. |  |
 | suffix | `(info: PaginationInfo) => VNodeChild` | `undefined` | Page suffix. |  |
 | show-size-picker | `boolean` | `false` | Whether to show the selector of the number of items per page. |  |
 | on-update:page | `(page: number) => void` | `undefined` | Callback function when the current page changes. |  |
