@@ -94,7 +94,7 @@
     "@vue/eslint-config-standard": "^7.0.0",
     "@vue/eslint-config-typescript": "^10.0.0",
     "@vue/server-renderer": "^3.2.36",
-    "@vue/test-utils": "2.0.0-rc.21",
+    "@vue/test-utils": "2.0.2",
     "autoprefixer": "^10.4.4",
     "babel-jest": "^28.0.2",
     "codesandbox": "^2.2.3",
