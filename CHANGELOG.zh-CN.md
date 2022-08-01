@@ -29,6 +29,7 @@
 ### Feats
 
 - `n-steps` 支持 RTL
+- `n-pagination` 新增 `trigger-quick-jump-on` 属性，关闭 [#3387](https://github.com/TuSimple/naive-ui/issues/3387)
 
 ## 2.32.0
 

@@ -42,6 +42,7 @@ page-size-option.vue
 | size | `'small' \| 'medium' \| 'large'` | `'medium'` | size of page item. | 2.29.0 |
 | suffix | `(info: PaginationInfo) => VNodeChild` | `undefined` | Page suffix. |  |
 | show-size-picker | `boolean` | `false` | Whether to show the selector of the number of items per page. |  |
+| trigger-quick-jump-on- | `Array<'change'\|'blur'>` | `['change']` | Whether to jump to the page when the input is blurred. | NEXT_VERSION |
 | on-update:page | `(page: number) => void` | `undefined` | Callback function when the current page changes. |  |
 | on-update:page-size | `(pageSize: number) => void` | `undefined` | Callback function when the current page size changes. |  |
 
